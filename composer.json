@@ -1,0 +1,30 @@
+{
+  "name": "website-protection/cphub-verifier",
+  "description": "Простой пакет Laravel для проверки токенов Captcha Hub",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "WebsiteProtection\\CaptchaHubVerifier\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Website-Protection"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "laravel/framework": "^8.0 || ^9.0 || ^10.0 || ^11.0 || ^12.0"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "WebsiteProtection\\CaptchaHubVerifier\\CaptchaHubVerifierServiceProvider"
+      ],
+      "aliases": {
+        "CaptchaHub": "WebsiteProtection\\CaptchaHubVerifier\\Facades\\CaptchaHub"
+      }
+    }
+  }
+}
