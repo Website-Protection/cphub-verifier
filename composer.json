@@ -2,6 +2,7 @@
   "name": "website-protection/cphub-verifier",
   "description": "Простой пакет Laravel для проверки токенов Captcha Hub",
   "type": "library",
+  "homepage": "https://github.com/Website-Protection/cphub-verifier",
   "license": "MIT",
   "autoload": {
     "psr-4": {
