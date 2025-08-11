@@ -75,4 +75,4 @@ if (CaptchaHub::verify($token, $anotherSecretKey)) {
 
 ## Лицензия
 
-The MIT License (MIT). Пожалуйста, смотрите [Файл Лицензии](LICENSE.md) для получения дополнительной информации.
+The MIT License (MIT). Пожалуйста, смотрите [Файл Лицензии](LICENSE) для получения дополнительной информации.
